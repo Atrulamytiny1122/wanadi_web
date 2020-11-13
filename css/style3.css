@@ -1,0 +1,349 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.html{
+    background-color: white;
+    margin-top: 30px;
+    width: 1040px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.clr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.custom-logo-link{
+    margin-left: 20px;
+    margin-right: 0px;
+    align-items: center;
+    justify-content:center;
+}
+
+.custom-logo-link:hover{
+    transform: scale(1.1);
+}
+
+.wanadi{
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 1200;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 60px;
+    padding: 20px 10px;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 0px;
+}
+
+.youtube{
+    margin-left: 5px;
+}
+
+.email{
+    margin-left: 5px;
+}
+
+.nav_box{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    margin-left: 0px;
+    background-color: #0F4C81;
+    margin-top: -10px;;
+    width: 1040px;
+    padding: 15px 0px;
+}
+
+.menu-item{
+    display: flex;
+    text-align: center;
+}
+
+.text-wrap{
+    color: #ffffff;
+    font-size: medium;
+    font-family: "PingFangTC-Medium";
+    letter-spacing: 1.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.text-wrap:hover{
+    opacity: 0.8;
+    background-color: #707F9C;
+    color: #0F4C81;
+}
+
+.title_box{
+    background-color: #0F4C81;
+}
+
+.news_text{
+    background-color: #D5ADD8;
+    margin-top: 30px;
+}
+
+.news_title{
+    color:#4B4B4B;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: "PingFangTC-Semibold" "Arial";
+    padding: 50px 100px;
+}
+
+.news_p{
+    color: #5E739C;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 2px;
+    padding: 0px 100px;
+    padding-bottom: 50px;
+}
+
+.teacher{
+    background-color: #0F4C81;
+    margin-top: 30px;
+}
+
+.teacher_title{
+    color:white;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 700;
+    font-size: 60px;
+    padding: 50px 100px;
+    letter-spacing: 2px;
+}
+
+
+.teacher_name{
+    color:white;
+    font-size:30px;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 700;
+    margin-left:100px;
+    margin-top: -25px;
+    letter-spacing: 1.2px;
+}
+
+.teacher_titles{
+    color:white;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 17px;
+    margin-bottom: 2px;
+    margin-left:100px;
+}
+
+.teacher_content{
+    font-family: "PingFangTC-Light";
+    color:white;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    margin-left:100px;
+}
+
+.teacher-introduction-text{
+    padding-bottom: 50px;
+}
+
+.students{
+    background-color: #707F9C;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+.students-says{
+    color:white;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 700;
+    font-size: 60px;
+    padding: 50px 336px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.students-says-box{
+    width:300px;
+    height: 300px;
+    background-color: #B7BFCE;
+    border-radius: 18px;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 15px;
+}
+
+.students_p{
+    color: #0F4C81;
+    font-size: 16px;
+    font-family:"PingFangTC-medium" "arial";
+    font-weight: 400;
+    padding: 30px;
+    letter-spacing: 5%;
+    line-height: 150%;
+}
+
+.students-says-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ls-located{
+    color:#0F4C81;
+}
+
+.learning-space{
+    background-color: #DE5966;
+    padding-bottom: 80px;
+    margin-top: 30px;
+}
+
+.map_title{
+    color:white;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 17px;
+    margin-bottom: 2px;
+    margin-left:250px;
+}
+
+.address{
+    color:white;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left:250px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.map_pic{
+    width: 346px;
+    height: 266px;
+    margin-left: 130px;
+    margin-top: 17px;
+}
+
+
+.map_pic:hover{
+    transform: scale(1.2);
+}
+.title_location{
+    color:white;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 700;
+    font-size: 60px;
+    padding: 60px 396px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 280px;
+    border: #ffffff 20px;
+    align-items: center;
+    align-self: center;
+}
+.youtube:hover{
+    transform: scale(1.2);
+}
+
+.email:hover{
+    transform: scale(1.2);
+}
+
+
+.elementor-video-iframe{
+    width: 1040px;
+    height: 585px
+}
+.pic{
+    margin-bottom: 30px;
+}
+
+.pic_{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.pic__{
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.copyright{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "arial";
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background: #707F9C;
+    color: #ffffff;
+    padding: 40px 0px;
+    margin-top: 30px;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-widget{
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+}

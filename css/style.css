@@ -1,0 +1,437 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.html{
+    background-color: white;
+    margin-top: 30px;
+    width: 1040px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.clr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.custom-logo-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content:center;
+}
+
+.custom-logo-link:hover{
+    opacity: 0.8;
+}
+
+.wanadi{
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 1200;
+    letter-spacing: 1px;
+    color: #0F4C81;
+    font-size: 60px;
+}
+
+
+.youtube{
+    margin-left: 5px;
+}
+
+.email{
+    margin-left: 5px;
+}
+.nav_box{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #BA403F;
+    margin-top: 20px;
+    width: 1040px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-item{
+    display: flex;
+    text-align: center;
+}
+
+.text-wrap:hover{
+    opacity: 0.8;
+    background-color: #DE848D;
+}
+
+.text-wrap{
+    color: #ffffff;
+    font-size: medium;
+    font-family: "PingFangTC-Medium";
+    letter-spacing: 1.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.pic{
+    width: 1040px;
+    margin-top:20px;
+}
+
+.elementor{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.elementor-tital{
+    font-size: 30px;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 900;
+    color:white;
+    background-color: #BA403F;
+    padding: 4px 40px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.elementor-tital_{
+    font-size: 30px;
+    font-family: "PingFangTC-Semibold" "Arial";
+    font-weight: 900;
+    color:white;
+    background-color: #BA403F;
+    padding: 4px 40px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.elementor-tital_:hover{
+    background-color: #707F9C;
+}
+
+.elementor-image-title{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.elementor-image-description{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.elementor-widget-container{
+    display: block;
+    align-self: center;
+    text-align: center;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.three{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.elementor-image-title{
+    font-family: "PingFangTC-Semibold", "Microsoft JhengHei";
+    font-size: x-large;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: #766F77;
+    padding-top: 10px;
+    display: flex;
+    margin-left: 8px;
+}
+
+.text00{
+    font-family: "PingFangTC-Regular", "Microsoft JhengHei";
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #766F77;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.elementor-image-content{
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.those_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first{
+    margin-left: -10px;
+    background-color: #D7C9D8;
+    border-radius: 27px;
+    width: 280px;
+    margin-top: 30px;
+}
+
+.second{
+    margin-left: -3px;
+    background-color: #D7C9D8;
+    border-radius: 27px;
+    width: 280px;
+    margin-top: 30px;
+}
+
+.third{
+    margin-right: -9px;
+    background-color: #D7C9D8;
+    border-radius: 27px;
+    width: 280px;
+    margin-top: 30px;
+}
+
+
+.course1{
+    background-color: #707F9C;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.know_pic{
+    display: flex;
+    align-items: flex-end;
+}
+
+.course_text{
+    font-size: 20px;
+    color: white;
+    font-family: "PingFangTC-Regular", "Microsoft JhengHei";
+    letter-spacing: 3px;
+    line-height: 40px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.know_text1{
+    font-size: 30px;
+    color: white;
+    font-family: "PingFangTC-Semibold", "Microsoft JhengHei";
+    letter-spacing: 1.5px;
+    background-color: #DE848D;
+    padding: 15px 40px;
+    margin-right: 294px;
+    margin-left: 40px;
+    margin-top: 130px;
+}
+
+.know_text1:hover{
+    background-color: #ffffff;
+    color: #DE848D;
+}
+
+.course2{
+    background-color: #707F9C;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.course_text2{
+    font-size: 30px;
+    color: white;
+    font-family: "PingFangTC-Semibold", "Microsoft JhengHei";
+    letter-spacing: 1.5px;
+    margin-left: 80px;
+}
+
+.course_text2_{
+    font-size: 20px;
+    color: white;
+    font-family: "PingFangTC-Regular", "Microsoft JhengHei";
+    letter-spacing: 3px;
+    line-height: 40px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.know_text2{
+    font-size: 30px;
+    color: white;
+    font-family: "PingFangTC-Semibold", "Microsoft JhengHei";
+    letter-spacing: 1.5px;
+    background-color: #DE848D;
+    padding: 15px 40px;
+    margin-left: 230px;
+    margin-top: 120px;
+}
+
+.know_text2:hover{
+    background-color: #ffffff;
+    color: #DE848D;
+}
+
+.NLP{
+    font-family: "PingFangTC-Regular", "Microsoft JhengHei";
+    font-size: 20px;
+    background-color: #707F9C;
+    color: white;
+    padding: 50px 200px;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+.first_p{
+    margin-bottom: 20px;
+}
+.second_p{
+    margin-bottom: 20px;
+}
+
+.video_{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.swiper-slide{
+    margin: 20px 0px;
+    opacity: 0.5;
+}
+
+.swiper-slide:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.footer{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background: #707F9C;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+.footer-widget{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 280px;
+    border: #ffffff 20px;
+    align-items: center;
+    align-self: center;
+}
+.youtube:hover{
+    transform: scale(1.2);
+}
+
+.email:hover{
+    transform: scale(1.2);
+}
+
+.copyright{
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*輪播*/
+
+/*.coverflow{
+    width: 700px;
+    height: 490px;
+    position: relative;
+}
+.coverflow>a{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+/*當圖片數量增加，影片長度需更改，變為5s*圖片數量*/
+ /*-webkit-animation: silder 15s linear infinite;
+ animation: silder 15s linear infinite;
+}
+.coverflow>a>img{
+    max-width: 100%;
+}*/
+/*動畫關鍵影格
+@-webkit-keyframes silder {
+    3% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    27% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+@keyframes silder {
+    3% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    27% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+/*每個圖片各延遲5秒*/
+/*.coverflow>a:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;               
+}
+.coverflow>a:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+.coverflow>a:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;    
+}
+/*滑入時停止播放*/
+/*.coverflow:hover>a{
+-webkit-animation-play-state: paused;
+        animation-play-state: paused;
+}*/
