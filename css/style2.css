@@ -224,6 +224,8 @@
 
 .ls-located{
     color:#0F4C81;
+    justify-content: center;
+    align-items: center;
 }
 
 .learning-space{
@@ -240,7 +242,7 @@
     letter-spacing: 2px;
     margin-top: 17px;
     margin-bottom: 2px;
-    margin-left:250px;
+    margin-left:270px;
 }
 
 .address{
@@ -251,7 +253,7 @@
     letter-spacing: 2px;
     margin-top: 30px;
     margin-bottom: 2px;
-    margin-left:250px;
+    margin-left:270px;
 }
 
 .row{
@@ -262,7 +264,7 @@
 .map_pic{
     width: 346px;
     height: 266px;
-    margin-left: 130px;
+    margin-left: 70%;
     margin-top: 17px;
 }
 
@@ -280,6 +282,7 @@
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .footer{
