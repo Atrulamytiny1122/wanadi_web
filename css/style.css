@@ -6,7 +6,7 @@
 .html{
     background-color: white;
     margin-top: 30px;
-    width: 1040px;
+    width: 100%;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -39,7 +39,7 @@
 
 .wanadi{
     font-family: "PingFangTC-Semibold" "Arial";
-    font-weight: 1200;
+    font-weight: 100%;
     letter-spacing: 1px;
     color: #0F4C81;
     font-size: 60px;
@@ -59,7 +59,7 @@
     justify-content:center;
     background-color: #BA403F;
     margin-top: 20px;
-    width: 1040px;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -86,7 +86,7 @@
 }
 
 .pic{
-    width: 1040px;
+    width: 100%;
     margin-top:20px;
 }
 
@@ -219,6 +219,7 @@
     display: flex;
     flex-direction: row;
     padding: 20px;
+    justify-content: center;
 }
 
 .know_pic{
@@ -259,6 +260,7 @@
     flex-direction: row;
     padding: 20px;
     margin-top: 50px;
+    justify-content: center;
 }
 
 .course_text2{
@@ -306,10 +308,10 @@
 }
 .first_p{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
-.second_p{
-    margin-bottom: 20px;
-}
+
 
 .video_{
     display: flex;
@@ -336,6 +338,7 @@
     background: #707F9C;
     color: #ffffff;
     padding: 20px 0px;
+    justify-content: center;
 }
 
 .footer-widget{
