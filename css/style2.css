@@ -259,10 +259,7 @@
 .row{
     display: flex;
     flex-direction: row;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-
+    align-content: space-around;
 }
 
 .map_pic{
