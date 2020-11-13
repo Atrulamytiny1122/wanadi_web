@@ -259,7 +259,7 @@
 .row{
     display: flex;
     flex-direction: row;
-    align-content: space-around;
+    justify-content: center;
 }
 
 .map_pic{
